@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gradient</title>
+	</head>
+	<style type="text/css">
+		body{
+		background: linear-gradient(89deg, #ba5370, #2657eb, #ec7b2f, #f8fb72);
+	background-size: 800% 800%;
+	-webkit-animation: Gradient 18s ease infinite;
+	-moz-animation: Gradient 18s ease infinite;
+	animation: Gradient 18s ease infinite;}
+	@-webkit-keyframes Gradient {
+	0%{background-position:0% 53%}
+	50%{background-position:100% 48%}
+	100%{background-position:0% 53%}
+	}
+	@-moz-keyframes Gradient {
+	0%{background-position:0% 53%}
+	50%{background-position:100% 48%}
+	100%{background-position:0% 53%}
+	}
+	@keyframes Gradient {
+	0%{background-position:0% 53%}
+	50%{background-position:100% 48%}
+	100%{background-position:0% 53%}
+	}
+	.text1{font-size: 100px; text-align: center; color: white; font-family: 'Open Sans', sans-serif;
+	}
+	
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	</style>
+	<body>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+		<div class="centered" >
+			<p class="text1">Hello.</p>
+		</div>
+		
+	</body>
+</html>
